@@ -3,54 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website with JPEG Background</title>
+    <title>XBTFX Trading Signal - Osamah Miftah Meeloud Ahmed</title>
     <style>
         body {
-            /* Replace 'your-image.jpg' with the actual filename or web URL of your JPEG */
-            background-image: url('10.jpg'); 
+            /* Fullscreen JPEG background layout */
+            background-image: url('10.jpg');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed;
+            background-color: #f0f0f0;
             
-            /* Prevents the image from repeating like a grid pattern */
-            background-repeat: no-repeat; 
-            
-            /* Centers the background image vertically and horizontally */
-            background-position: center; 
-            
-            /* Scales the image proportionally so it completely covers the screen */
-            background-size: cover; 
-            
-            /* Keeps the background fixed in place so it doesn't scroll with the text */
-            background-attachment: fixed; 
-            
-            /* Fallback color in case the image fails to load */
-            background-color: #f0f0f0; 
-            
-            /* Simple text styling for contrast */
+            /* Typography setup */
             color: #333333;
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 20px;
         }
 
-        /* Semi-transparent container to make text easily readable over the background */
+        /* Semi-transparent container for clear text contrast */
         .content-box {
-            background-color: rgba(255, 255, 255, 0.85); 
+            background-color: rgba(255, 255, 255, 0.90);
             padding: 30px;
             border-radius: 8px;
             max-width: 600px;
             margin: 50px auto;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+            text-align: center;
+        }
+
+        h1 {
+            margin-top: 0;
+            font-size: 28px;
+            color: #111111;
+        }
+
+        .author-text {
+            font-size: 16px;
+            margin-bottom: 25px;
+            color: #555555;
+        }
+
+        .widget-container {
+            width: 100%;
+            line-height: 26px;
+        }
+
+        iframe {
+            border: none;
+            border-radius: 4px;
+        }
+
+        .sw-copyright {
+            margin-top: 10px;
+            font-size: 12px;
+        }
+
+        .sw-copyright a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        .sw-copyright a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
 
     <div class="content-box">
-        <h1>iuiplephesr</h1>
-        <p>Osamah Miftah Meeloud Ahmed Published MetaTrader 5 signal XBTFX.</p>
-        <div style="width:100%;text-align:center;line-height:26px;">
-        <iframe frameborder="0" width="100%" height="140" src="https://www.mql5.com/en/signals/widget/signal/7emf?t=dark?fw=html"></iframe>
-        <div class="sw-copyright"><a href="https://www.metatrader.com/?utm_source=signals.widget&utm_medium=link&utm_term=signals&utm_content=visit.mql5.signals&utm_campaign=202.signals.widget" rel="noopener nofollow" target="_blank">MetaTrader World Markets</a></div>
+        <h1>XBTFXoa5787718USDT100</h1>
+        <p class="author-text">Published by Osamah Miftah Meeloud Ahmed via MetaTrader 5</p>
+        
+        <div class="widget-container">
+            <!-- Fixed URL parameters syntax to ensure proper MQL5 widget loading -->
+            <iframe frameborder="0" width="100%" height="140" src="https://mql5.com"></iframe>
+            <div class="sw-copyright">
+                <a href="https://metatrader.com" rel="noopener nofollow" target="_blank">
+                    MetaTrader World Markets
+                </a>
+            </div>
+        </div>
     </div>
+
 </body>
 </html>
-
